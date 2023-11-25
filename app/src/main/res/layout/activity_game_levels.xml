@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameLevels">
+
+
+
+    <ImageView
+        android:id="@+id/bgview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/quiz_app_background_withoutlevel"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/star_1" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="400dp"
+
+        app:srcCompat="@drawable/star_2" />
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="600dp"
+
+
+        app:srcCompat="@drawable/star_3" />
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="230dp"
+        app:srcCompat="@drawable/star_4" />
+
+    <TextView
+        android:id="@+id/gamelevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Levels"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"/>
+</RelativeLayout>
